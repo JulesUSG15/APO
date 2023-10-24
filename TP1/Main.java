@@ -2,19 +2,20 @@ package TP1;
 
 public class Main {
     public static void main(String[] args) {
+        /* on crée une classe de 3 étudiants */
         Classe c = new Classe(3, true);
+        /* on affiche les étudiants */
         c.afficherEtudiants();
-
+        /* on crée 3 étudiants */
         Etudiant e1 = new Etudiant("Antoine", "Maxime");
         Etudiant e2 = new Etudiant("Ponton", "Mathieu");
         Etudiant e3 = new Etudiant("Ginhac", "Jules");
-
+        /* on les ajoute à la classe */
         c.ajouterEtudiant(e1);
         c.ajouterEtudiant(e2);
         c.ajouterEtudiant(e3);
+        /* on affiche les étudiants */
         c.afficherEtudiants();
-
-        
         /* le nombre de test (statistique) à faire */
         int nbTest = 10000;
         /* la taille des classes à tester */
