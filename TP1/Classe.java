@@ -3,7 +3,7 @@ package TP1;
 import java.util.Arrays;
 
 /**
- * Classe représentant une classe d'étudiants
+ * Classe représentant une classe d'étudiants test 
 
  */
 public class Classe {
