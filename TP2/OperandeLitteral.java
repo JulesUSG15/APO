@@ -15,6 +15,7 @@ public class OperandeLitteral extends Expression {
      */
     public OperandeLitteral(ValeurTypee valeur) {
         this.valeur = valeur;
+    }
 
     /**
      * Renvoie la valeur de l'opérande

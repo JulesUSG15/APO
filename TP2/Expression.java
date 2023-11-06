@@ -44,7 +44,7 @@ public abstract class Expression {
             return switch (s.charAt(indexOperande)) {
                 case '^' -> new Inverse(expressionGauche);
                 case '+' -> new Addition(expressionGauche, Expression.create(expressionressionDroite));
-                case '-' -> new Soustraction(expressionGauche, Expression.create(expressionressionDroite));
+                case '-' -> new Substraction(expressionGauche, Expression.create(expressionressionDroite));
                 case '*' -> new Multiplication(expressionGauche, Expression.create(expressionressionDroite));
                 case '/' -> new Division(expressionGauche, Expression.create(expressionressionDroite));
                 default -> throw new UnsupportedOperationException("Opérateur inconnu %c".formatted(s.charAt(indexOperande)));

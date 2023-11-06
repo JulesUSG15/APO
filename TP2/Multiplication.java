@@ -19,7 +19,7 @@ package TP2;
      * @return la valeur de la multiplication des deux expressions
      */
     public ValeurTypee calculer() {
-        return this.getExpressionGauche().calculer().fois(this.getExpressionDroite().calculer());
+        return this.getExpressionGauche().calculer().multiplier(this.getExpressionDroite().calculer());
     }
 
     /**
