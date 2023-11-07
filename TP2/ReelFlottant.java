@@ -79,4 +79,12 @@ public class ReelFlottant extends ValeurTypee {
     public ValeurTypee inverse() {
         return new ReelFlottant(1 / this.valeur);
     }
+
+    /**
+     * Retourne la valeur sous forme de chaîne de caractères
+     * @return la valeur sous forme de chaîne de caractères
+     */
+    public String toString() {
+        return String.valueOf(this.valeur);
+    }
 }

@@ -7,7 +7,7 @@ public class EntierRelatif extends ValeurTypee {
     /**
      * Valeur de l'entier relatif
      */
-    private int valeur;
+    final private int valeur;
 
     /**
      * Constructeur de la classe EntierRelatif
@@ -19,19 +19,15 @@ public class EntierRelatif extends ValeurTypee {
 
     /**
      * Retourne la valeur de l'entier relatif
-     * 
-     * @return
+     * @return la valeur de l'entier relatif
      */
     public int getEntier() {
         return this.valeur;
     }
 
     private int valeurInt(ValeurTypee nombre) {
-        if (nombre instanceof EntierRelatif) {
-            return ((EntierRelatif) nombre).getEntier();
-        }
-        else if (nombre instanceof ReelFlottant) {
-            return (int) ((ReelFlottant) nombre).getReel();
+        if (nombre instanceof EntierRelatif entierRelatif) {
+            return entierRelatif.getEntier();
         }
         throw new UnsupportedOperationException("Type de valeur inconnu!");
     }
@@ -92,5 +88,13 @@ public class EntierRelatif extends ValeurTypee {
      */
     public ValeurTypee inverse() {
         return new EntierRelatif(-this.valeur);
+    }
+
+    /**
+     * Renvoie une chaîne de caractère représentant la valeur entière
+     * @return une chaîne de caractère représentant la valeur entière
+     */
+    public String toString() {
+        return Integer.toString(this.valeur);
     }
 }
