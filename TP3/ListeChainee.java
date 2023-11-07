@@ -31,7 +31,7 @@ public class ListeChainee<E extends Comparable<E>> {
      * @return l'valeur courant
      */
     public E getValeur() {
-        return this.valeur;
+        return valeur;
     }
 
     /**
@@ -39,7 +39,7 @@ public class ListeChainee<E extends Comparable<E>> {
      * @return  la suite de la liste chaînée
      */
     public ListeChainee<E> getSuivant() {
-        return this.suivant;
+        return suivant;
     }
 
     /**
