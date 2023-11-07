@@ -3,7 +3,7 @@ package TP3;
 /**
  * Classe représentant une liste chainée
  */
-public class ListeChainee<E> {
+public class ListeChainee<E extends Comparable<E>> {
 
     private E valeur;
     private ListeChainee<E> suivant;
