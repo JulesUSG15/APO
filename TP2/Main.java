@@ -18,6 +18,8 @@ public class Main {
         System.out.printf("((3)+((5)+((5)^-1))) = %s = %s\n", exp21, exp21.calculer());
         Expression exp3 = Expression.create("(((3)+(0.2))*(((1)+(1))^-1))");
         System.out.printf("(((3)+(0.2))*(((1)+(1))^-1)) = %s = %s\n", exp3, exp3.calculer());
+        Expression exp4 = Expression.create("(((3)+(0.2))*(((1)+(1))^-1))");
+        System.out.printf("(((3)+(0.2))*(((1)+(1))^-1)) = %s = %s\n", exp4, exp4.calculer());
 
     }
 }
