@@ -1,4 +1,4 @@
-package TP3_bis;
+package TP4_bis;
 
 /**
  * Classe représentant un couple indice, valeur

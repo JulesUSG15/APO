@@ -1,4 +1,4 @@
-package TP3_bis;
+package TP4_bis;
 
 /**
  * Classe représentant une matrice creuse (i.e. une matrice constituée de beaucoup de 0) avec des listes chaînées triées
