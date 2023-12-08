@@ -4,8 +4,8 @@ public class ApoTp4 {
 
     public static void main(String[] args) {
         ListeChainee2<Integer> liste = new ListeChainee2<>();
+        liste.add(1);
         liste.add(3);
-        liste.add(5);
         liste.add(4);
         liste.add(2);
         System.out.printf("liste: %s\n", liste);
