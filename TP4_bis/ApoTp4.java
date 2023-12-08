@@ -1,6 +1,6 @@
 package TP4_bis;
 
-public class ApoTp3 {
+public class ApoTp4 {
 
     public static void main(String[] args) {
         ListeChainee2<Integer> liste = new ListeChainee2<>();
